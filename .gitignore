@@ -25,3 +25,6 @@ Thumbs.db
 
 # Ignore virtual environment directory
 .venv/
+
+# Ignore llm model files
+models/

@@ -82,4 +82,37 @@ pipのアップデート
 
     pip install --upgrade pip
 
+PyTorchのインストール
+
+    pip3 install --pre torch torchvision torchaudio --index-url https://download.pytorch.org/whl/nightly/cu128
+
+# Langchain
+
+pip install langchain
+
+gemini用
+
+    pip install google-generativeai
+    pip install langchain-google-genai
+
+gemma用
+
+    pip install langchain-google-vertexai
+
+GemmaLocalHF用
+
+    sudo apt-get install git-lfs
+    git lfs install
+
+huggingfaceログイン用
+
+    pip install huggingface_hub
+    huggingface-cli login
+
+プロジェクト/models
+
+    git lfs clone https://huggingface.co/google/gemma-3-1b-it
+    git lfs clone https://huggingface.co/google/gemma-3-1b-pt
+
+https://aistudio.google.com/apikey
 
