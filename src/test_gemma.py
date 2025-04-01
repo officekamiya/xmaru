@@ -1,4 +1,4 @@
-# pipeline_quant_test.py (コメント追記例)
+# test_gemma.py (コメント追記例)
 import torch
 from transformers import pipeline, BitsAndBytesConfig, AutoTokenizer
 import os

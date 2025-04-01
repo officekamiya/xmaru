@@ -28,3 +28,6 @@ Thumbs.db
 
 # Ignore llm model files
 models/
+
+# Ignore medias files
+medias/*
